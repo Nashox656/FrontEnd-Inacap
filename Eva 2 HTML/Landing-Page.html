@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio de Boxeo Kamogawa</title>
+    <link rel="stylesheet" href="estilos.css"></head><!--Aqui llamamos a la paleta de estilos de CSS creada.-->
+<body>
+
+    <header><!--Aqui creamos el header de la pagina. Que es la parte superior.-->
+        <nav><!--Creamos una navbar(Barra de navegacion) que nos lleva a diferentes lugares dentro o fuera de la pagina.-->
+          <ul>
+            <li><a href="#home">Inicio</a></li><!--Usamos la sentencia href para definir a que zona de la pagina vamos.-->
+            <li><a href="#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#Planes">Planes</a></li>
+            <li><a href="https://rickroll.it/rickroll.mp4" target="_blank">Oprime Aqui</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+    <section id="home"><!--Usamos el section para seccionar las partes de la pagina para ordenar los datos.-->
+        <h1>¡Adentrate en el mundo del Boxeo!</h1>
+        <img src="images/boxgym.PNG" alt="Box LOGO"><!--Usamos la sentencia img para agregar imagenes desde una carpeta local-->
+        <p>En el gimnasio Kamogawa nos encargamos de darte la mayor y mejor experiencia del mundo del boxeo. 
+            ¡Aprende de nuestros grandes entrenadores como el fundador Genji Kamogawa,
+             varios de sus luchadores como Ippo Makanaochi o Mamoru Takamura! ¿Que esperas? </p>
+        <h3>Beneficios del boxeo:</h3>
+        <ul><!--Aqui creamos la lista.-->
+            <li>Mejora tu estado físico y mental.</li><bl>
+            <li>Desarrolla una conexión profunda con tu cuerpo y oponente.</li><bl>
+            <li>Aprende a manejar el miedo y superar desafíos.</li><bl>
+            <li>Disfruta de un ambiente social y divertido y desafiante.</li><bl>
+            <li>Crea recuerdos inolvidables.</li><bl>
+        </ul>
+    </section>
+
+
+<section id="Planes"><!--Seccion de Precios-->
+    <h3>Precios de los cursos:</h3>
+    <table><!--Creamos una tabla para los precios.-->
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Duración</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Curso para principiantes</td>
+                <td>4 horas</td>
+                <td>$20.000</td>
+            </tr>
+            <tr>
+                <td>Curso + Implementos </td>
+                <td>8 horas</td>
+                <td>$35.000</td>
+            </tr>
+            <tr>
+                <td>Curso + Personal Trainer + Implementos</td>
+                <td>12 horas</td>
+                <td>$50.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </section>
+
+<section id="quienes-somos">
+    <img src="images/box gym 2.jpg" alt="Box_Image">
+    <h2>¿Quienes Somos?</h2>
+    <p>Somos un gimnasio que nacio de la pasion y el deporte mas diciplinado.<bl></bl> 
+        Nuestro objetivo es capacitar a nuestros alumnos para llevarlos a pelear contra todas las adversidades.</p>
+</section>
+
+<section id="contacto">
+    <img src="images/boxgym3.jpg" alt="Imagen de Box">
+    <h2>Contáctanos</h2>
+    <form action="https://rickroll.it/rickroll.mp4" method="post">
+        <label for="nombre">Nombre:</label><!--Creamos un formulario que tome datos y los envie(o guarde).-->
+        <input type="text" id="nombre" name="nombre" required><!--Aqui usamos el required para exigir al usuario que debe completar el campo.-->
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+        <button onclick="location.href='https://portales.inacap.cl/'">Enviar</button>
+    </form>
+    <h3>Información de contacto:</h3>
+    <ul><!--Creamos una tabla.-->
+        <li>Dirección: <a href="https://maps.app.goo.gl/zbxMiqQm1Q695faC8" target="_blank"
+            >Anibal Zañartu 8015</a></li><bl></bl><bl></bl><!--En este caso use un link de google maps con la casa de un amigo.-->
+        <li>Teléfono: +56 9 7390 9477</li><bl></bl><bl></bl>
+        <li>Correo electrónico: kamogawagym@gmail.com</li><bl></bl>
+    </ul>
+    <bl></bl>
+    <ul>
+        <li>Facebook:</li><bl></bl>
+        <li>WhatsApp:</li><bl></bl>
+        <li>Instagram:</li><bl></bl>
+    </ul>
+</section>
+
+<section id="footer"><!--En este caso use un section en vez de un footer ya que en mi css tenia una paleta de estilos para los section.-->
+    <h2>¡El Boxeo en su Maximo Esplendor!</h2>
+    <img src="images/boxpunch.jpg" alt="BOX_IMAGE2" width="150" height="75"> 
+    <p>El boxeo es más que un deporte, es un estilo de vida. Es una forma de conectarse con la gente, desafiarse a sí mismo y crear recuerdos inolvidables. 
+        Si estás buscando una nueva aventura, el boxeo es la opción perfecta para ti.</p>
+</section>
+
+</body>
+</html>

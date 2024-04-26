@@ -1,0 +1,189 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    background-color: rgb(211, 106, 106);
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+
+  h1{
+    font-size: 40;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  img {
+    width: 35%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  
+  /* Estilos por sección */
+  
+  #home {
+    background-color: #efe576;
+  }
+  
+  #quienes-somos, #otra {
+    background-color: #e09e9e;
+  }
+  
+  #contacto {
+    background-color: #93e1e8;
+  }
+  
+  /* Formulario */
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #c22b33;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  
+  /* Contacto */
+  
+  .contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .contacto li {
+    margin-bottom: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    section {
+      padding: 20px 0;
+    }
+  
+    form {
+      width: 80%;
+      
+    }
+  /* Utilizamos la escala em en medida(font-size).*/
+    h1, h2, h3 {
+      font-size: 1.2em;
+    }
+  
+    p {
+      font-size: 0.9em;
+    }
+  }
+
+table, th , td, thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: #f0f0f0;
+}
+th, td, thead {
+    background-color: solid black;
+}
+table, th , td {
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+th, td, thead{
+    border-color: solid black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    position: center;
+    padding-left: 30px;
+  }
+  
+  li::before {
+    content: url('icon.png');
+    position: absolute;
+    left: 10px;
+    top: 5px;
+  }
+  nav {
+    background-color: #cb2f2f; 
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+
+  }
+  
+  ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+  }
+  
+  li {
+    display: inline-block; 
+    margin: 0 20px; 
+  }
+  
+  a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  a:hover { 
+    color: #f0f0f0; 
+  }
+  
+  
+  .active {
+    background-color: #c12f37; 
+    color: white; 
+  }
+
+  
